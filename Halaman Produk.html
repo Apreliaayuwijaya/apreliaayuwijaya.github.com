@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Produk - UMKM Profile</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        body {
+            background-color: #ffffff;
+            color: #333;
+        }
+        .header-banner {
+            width: 100%;
+            height: auto;
+        }
+        .banner-text {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .product-card {
+            margin-top: 20px;
+            border-radius: 15px;
+            border: 1px solid #e0e0e0;
+            background-color: #fafafa;
+        }
+        .product-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .product-details {
+            padding: 15px;
+        }
+        .product-details h5 {
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="Halaman Produk.html">Daftar Produk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Tentang Kami.html">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Cara Pemesanan.html">Cara Pemesanan</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="margin-top: 100px;">
+        <header>
+            <img src="banner.jpeg" alt="UMKM Banner" class="header-banner">
+            <div class="banner-text">
+                Menu-Menu Di Cita Rasa Mie Ayam Solo
+            </div>
+        </header>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-6">
+                <div class="card product-card shadow-sm">
+                    <img src="ori.jpeg" alt="Product 1" class="product-image">
+                    <div class="product-details text-center">
+                        <h5>Mie Ayam Solo Original</h5>
+                        <p>Mie Ayam Solo Original adalah hidangan klasik yang menampilkan mie yang kenyal disajikan dengan potongan ayam yang dimasak dalam bumbu gurih khas. Dilengkapi dengan sayuran segar dan krupuk pangsit, hidangan ini menawarkan cita rasa autentik yang sempurna untuk penggemar mie ayam tradisional.</p>
+                        <h6>Rp 8,000</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-6">
+                <div class="card product-card shadow-sm">
+                    <img src="balungan.jpeg" alt="Product 2" class="product-image">
+                    <div class="product-details text-center">
+                        <h5>Mie Ayam Solo Balungan</h5>
+                        <p>Mie Ayam Balungan menghadirkan potongan balungan (tulang ayam) yang lezat ke dalam semangkuk mie ayam. Tulang ayam yang dimasak lama memberikan kaldu yang lebih kaya dan rasa yang mendalam, menjadikan hidangan ini pilihan favorit bagi mereka yang menyukai cita rasa yang lebih kompleks dan nikmat.</p>
+                        <h6>Rp 10,000</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-6">
+                <div class="card product-card shadow-sm">
+                    <img src="ceker.jpeg" alt="Product 3" class="product-image">
+                    <div class="product-details text-center">
+                        <h5>Mie Ayam Solo Ceker</h5>
+                        <p>Mie Ayam Ceker menambahkan sentuhan istimewa dengan tambahan ceker ayam yang empuk. Ceker dimasak dengan sempurna dalam bumbu yang kaya rasa, memberikan tekstur unik dan rasa yang lebih dalam pada hidangan mie ayam ini. Cocok bagi mereka yang menyukai variasi dan sensasi makan ceker.</p>
+                        <h6>Rp 10,000</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-6">
+                <div class="card product-card shadow-sm">
+                    <img src="bakso.jpeg" alt="Product 4" class="product-image">
+                    <div class="product-details text-center">
+                        <h5>Mie Ayam Solo Bakso</h5>
+                        <p>Mie Ayam Bakso adalah perpaduan sempurna antara mie ayam yang klasik dengan bakso daging sapi yang kenyal. Setiap gigitan menawarkan kombinasi tekstur mie yang lembut, potongan ayam yang gurih, dan bakso yang lezat, menciptakan pengalaman makan yang memuaskan dan penuh rasa.</p>
+                        <h6>Rp 12,000</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="bg-dark p-3 text-center text-light">
+            Developed by Universitas Nusantara PGRI Kediri - <a href="https://unpkediri.ac.id" target="_blank">unpkediri.ac.id</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.js"></script>
+</body>
+</html>
